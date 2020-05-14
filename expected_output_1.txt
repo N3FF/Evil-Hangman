@@ -1,0 +1,70 @@
+Welcome to the cse143 hangman game.
+
+What length word do you want to use? 4
+How many wrong answers allowed? 7
+
+guesses : 7
+9 words left: [ally, beta, cool, deal, else, flew, good, hope, ibex]
+guessed : []
+current : - - - -
+Your guess? e
+Sorry, there are no e's
+
+guesses : 6
+3 words left: [ally, cool, good]
+guessed : [e]
+current : - - - -
+Your guess? o
+Yes, there are 2 o's
+
+guesses : 6
+2 words left: [cool, good]
+guessed : [e, o]
+current : - o o -
+Your guess? t
+Sorry, there are no t's
+
+guesses : 5
+2 words left: [cool, good]
+guessed : [e, o, t]
+current : - o o -
+Your guess? f
+Sorry, there are no f's
+
+guesses : 4
+2 words left: [cool, good]
+guessed : [e, f, o, t]
+current : - o o -
+Your guess? c
+Sorry, there are no c's
+
+guesses : 3
+1 words left: [good]
+guessed : [c, e, f, o, t]
+current : - o o -
+Your guess? n
+Sorry, there are no n's
+
+guesses : 2
+1 words left: [good]
+guessed : [c, e, f, n, o, t]
+current : - o o -
+Your guess? d
+Yes, there is one d
+
+guesses : 2
+1 words left: [good]
+guessed : [c, d, e, f, n, o, t]
+current : - o o d
+Your guess? h
+Sorry, there are no h's
+
+guesses : 1
+1 words left: [good]
+guessed : [c, d, e, f, h, n, o, t]
+current : - o o d
+Your guess? g
+Yes, there is one g
+
+answer = good
+You beat me
